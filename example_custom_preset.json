@@ -1,0 +1,31 @@
+{
+  "sensor_noise": {
+    "iso": 800,
+    "luminance": 0.45,
+    "chroma": 0.35
+  },
+  "jpeg": {
+    "quality": 87,
+    "mosquito": 0.3,
+    "banding": 0.25
+  },
+  "isp": {
+    "noise_reduction": 0.65,
+    "sharpening": 0.85,
+    "hdr": 0.55
+  },
+  "shadow": {
+    "posterize": 0.35,
+    "pixelate": 0.25,
+    "crawl": 0.45,
+    "crush": 0.25
+  },
+  "color": {
+    "shift": "warm",
+    "saturation": 1.15
+  },
+  "lens": {
+    "chromatic_ab": 0.18,
+    "vignette": 0.22
+  }
+}

@@ -1,0 +1,139 @@
+╔════════════════════════════════════════════════════════════════════╗
+║                                                                    ║
+║        PHONE COMPRESSION ULTIMATE - INSTALLATION GUIDE             ║
+║                                                                    ║
+║        ComfyUI Custom Node for Realistic Smartphone Artifacts     ║
+║                                                                    ║
+╚════════════════════════════════════════════════════════════════════╝
+
+📦 INSTALLATION (Choose One Method):
+
+─────────────────────────────────────────────────────────────────────
+
+METHOD 1: SINGLE FILE (Recommended - Easiest)
+
+1. Locate your ComfyUI installation folder
+2. Navigate to: ComfyUI/custom_nodes/
+3. Copy ONLY this file:
+   
+   📄 phone_compression_ultimate.py
+   
+   directly into the custom_nodes/ folder
+
+4. Restart ComfyUI
+
+✅ Done! Node appears at:
+   Add Node > image > postprocessing > Phone Compression Ultimate 📱
+
+─────────────────────────────────────────────────────────────────────
+
+METHOD 2: FOLDER PACKAGE (Alternative)
+
+1. Locate your ComfyUI installation folder
+2. Navigate to: ComfyUI/custom_nodes/
+3. Copy the ENTIRE folder:
+   
+   📁 phone_compression_ultimate/
+   
+   into the custom_nodes/ folder
+
+4. Restart ComfyUI
+
+✅ Done! Node appears at:
+   Add Node > image > postprocessing > Phone Compression Ultimate 📱
+
+─────────────────────────────────────────────────────────────────────
+
+🎯 QUICK TEST:
+
+1. Load any image in ComfyUI
+2. Add "Phone Compression Ultimate" node
+3. Set preset to: "iPhone_15_Pro"
+4. Set global_intensity to: 1.0
+5. Press Queue Prompt
+
+You should see realistic phone compression artifacts! 🎉
+
+─────────────────────────────────────────────────────────────────────
+
+📚 DOCUMENTATION:
+
+📖 README.md - Complete parameter guide and advanced features
+🚀 QUICKSTART.md - Quick reference for common use cases
+📝 CHANGELOG.md - Version history and future plans
+📜 LICENSE - MIT License (free to use/modify)
+
+─────────────────────────────────────────────────────────────────────
+
+🆘 TROUBLESHOOTING:
+
+Problem: Node not appearing
+Solution: 
+  - Make sure file is in correct folder
+  - Restart ComfyUI completely
+  - Check console for errors
+
+Problem: Effect too strong
+Solution:
+  - Lower global_intensity to 0.5
+  - Disable some modules
+
+Problem: Out of memory
+Solution:
+  - Process smaller images
+  - Disable unused modules
+  - Process fewer frames at once (for video)
+
+─────────────────────────────────────────────────────────────────────
+
+✨ FEATURES:
+
+✅ 5 Built-in Presets (iPhone, Samsung, Pixel, Generic x2)
+✅ 7 Independent Modules (toggle on/off)
+✅ Custom Preset Save/Load
+✅ Video Support (temporal consistency)
+✅ GPU Accelerated
+✅ Realistic Shadow Detail Loss
+✅ Brand-Specific Processing Signatures
+
+─────────────────────────────────────────────────────────────────────
+
+🎨 WHAT IT DOES:
+
+Creates authentic smartphone camera artifacts:
+• Sensor noise (ISO-dependent)
+• JPEG compression (DCT blocks, mosquito noise)
+• Aggressive noise reduction (watercolor effect)
+• Over-sharpening with halos
+• Shadow posterization & pixelation
+• Brand-specific color science
+• Lens aberrations (chromatic aberration, vignetting)
+
+Perfect for:
+• Removing "too clean" AI look
+• Adding realism to upscaled images
+• Creating found footage / security cam style
+• Matching phone photo aesthetic
+
+─────────────────────────────────────────────────────────────────────
+
+📞 SUPPORT:
+
+For questions, bug reports, or feature requests:
+• Check README.md for detailed documentation
+• Check QUICKSTART.md for common scenarios
+• Check CHANGELOG.md for known issues
+
+─────────────────────────────────────────────────────────────────────
+
+📜 LICENSE: MIT (Free to use, modify, and distribute)
+
+👨‍💻 AUTHORS: Daniel Janata & Claude (Anthropic)
+
+🗓️ VERSION: 1.0.0 (2026-01-18)
+
+─────────────────────────────────────────────────────────────────────
+
+                        Enjoy! 📱✨
+
+═════════════════════════════════════════════════════════════════════
